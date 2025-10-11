@@ -1,12 +1,12 @@
 {
-  "name": "Movie-Booking",
+  "name": "movie-booking",
   "private": true,
   "scripts": {
-    "build": "turbo run build",
-    "dev": "turbo run dev",
-    "lint": "turbo run lint",
+    "dev": "pnpm -r --parallel dev",
+    "build": "pnpm -r build",
+    "lint": "pnpm -r lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "check-types": "turbo run check-types"
+    "check-types": "pnpm -r check-types"
   },
   "devDependencies": {
     "prettier": "^3.6.2",

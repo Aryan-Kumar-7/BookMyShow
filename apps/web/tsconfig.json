@@ -5,7 +5,10 @@
       {
         "name": "next"
       }
-    ]
+    ],
+    "paths": {
+      "@dto/shared/*": ["../../packages/shared/src/*"]
+    }
   },
   "include": [
     "**/*.ts",
